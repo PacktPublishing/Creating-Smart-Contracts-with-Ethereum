@@ -1,0 +1,25 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "randomNumber",
+				"type": "uint8"
+			},
+			{
+				"name": "salt",
+				"type": "string"
+			}
+		],
+		"name": "saltedHash",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "pure",
+		"type": "function"
+	}
+]

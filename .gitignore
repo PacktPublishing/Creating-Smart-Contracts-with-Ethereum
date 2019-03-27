@@ -1,0 +1,11 @@
+.DS_Store
+*.~lock.*
+*.bak
+*.mp4
+*.mov
+*.zip
+*.jpg
+*.jpeg
+*.png
+node_modules/
+dist/

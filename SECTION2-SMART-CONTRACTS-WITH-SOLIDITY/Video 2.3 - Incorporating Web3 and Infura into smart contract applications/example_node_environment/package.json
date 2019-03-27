@@ -1,0 +1,19 @@
+{
+  "name": "packt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ethereum",
+    "Web3",
+    "Infura"
+  ],
+  "author": "drew@infiniteinternet.ca",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^1.0.0-beta.36"
+  }
+}
