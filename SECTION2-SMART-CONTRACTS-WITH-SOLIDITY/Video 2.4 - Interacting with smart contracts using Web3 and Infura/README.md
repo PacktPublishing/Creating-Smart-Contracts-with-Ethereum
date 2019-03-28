@@ -25,17 +25,15 @@ $ node
 > let contractInstance = new web3.eth.contract(ContractAbi, contractAddress);
 ```                                                                            
 
-# Sweet, now we can call our contract. If our Ethereum provider node from Infura has the block data
-# for the transaction where our contract is deployed, calling our contract greet() function returns 
-# the desired output, namely the words "Hello world"
+Sweet, now we can call our contract. If our Ethereum provider node from Infura has the block data for the transaction where our contract is deployed, calling our contract greet() function returns the desired output, namely the words "Hello world"
 
-# First, let's store our method and method callback in local variables 
+# First, let's store our method and method callback in local variables:
 ```
 > let Greeter = contractInstance.methods.greet();
 > let greeting = Greeter.call();
 ```
 
-# Now we can call our method
+# Now we can call our method:
 ```
 > console.log(greeting);
 ```
