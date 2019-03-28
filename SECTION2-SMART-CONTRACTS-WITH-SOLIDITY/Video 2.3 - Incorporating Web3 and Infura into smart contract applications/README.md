@@ -3,33 +3,44 @@ Incorporating Web3 and Infura into smart contract applications
 
 # Setup and Installation Guide:
 
-# Let's start by using the Infura open permissions RPC interface to check out the latest
-# block Infura has of the Kovan testnet:
+Let's start by using the Infura open permissions RPC interface to check out the latest block Infura has of the Kovan testnet:
 
-`curl -H 'Content-Type: application/json' -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}' https://kovan.infura.io/`
+```
+curl -H 'Content-Type: application/json' -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}' https://kovan.infura.io/
+```
 
-# To use web3 we need it in our local node modules
-# Start by creating a new npm project
-`npm init`
+To use web3 we need it in our local node modules
 
-# Follow the prompts to get your package.json file created
+# Start by creating a new npm project:
+```
+npm init
+```
+
+Follow the prompts to get your package.json file created
+
 # Now we can save web3.js as a dependency:
-`npm install web3`
+```
+npm install web3
+```
 
-# We start node
-`node`
+# Start node:
+```
+$ node
+```
 
-# First we need an instance of the Web3 node library
-`> const Web3 = require('web3');`
+First we need an instance of the Web3 node library
 
-# Now that we have access to the Web3 library,
-# we need an instance of Web3 that's connected to an Ethereum testnet
-# where we want to deploy smart contract to (e.g. https://kovan.infura.io/):
+```
+> const Web3 = require('web3');
+```
 
-`> const web3 = new Web3(new Web3.providers.HttpProvider("https://kovan.infura.io/"));`
+Now that we have access to the Web3 library, we need an instance of Web3 that's connected to an Ethereum testnetwhere we want to deploy smart contract to (e.g. https://kovan.infura.io/):
 
-# Now that we have access to a configured instance of Web3
-# connected to the correct blockchain, we can query it
+```
+> const web3 = new Web3(new Web3.providers.HttpProvider("https://kovan.infura.io/"));
+```
+
+Now that we have access to a configured instance of Web3 connected to the correct blockchain, we can query it:
 
 ```
 > let latestBlock = web3.eth.getBlock('latest');
