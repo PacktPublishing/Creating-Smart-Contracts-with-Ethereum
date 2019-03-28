@@ -1,0 +1,36 @@
+# Video 4.2: 
+Bootstrapping a React application and incorporating Web3
+
+# Setup and Installation Guide:
+
+# Make our project folder 
+```
+$ mkdir tic-tac-toe
+$ cd tic-tac-toe/
+```
+
+# Install the parcel web server and bundler
+`$ npm install -g parcel-bundler`
+
+# Or:
+```
+sudo npm install -g parcel-bundler 
+// (If you need admin privileges to install the global package)
+```
+
+# Create your package.json
+`$ npm init -y`
+
+# Install react and redux
+`$ npm install react react-dom react-router-dom redux react-redux redux-thunk`
+
+# Install Web3
+```
+// At the time of writing, newer versions of Web3 have documentation 
+// that isn't up to date, so you may encounter weird behavior that
+// is difficult to debug. 
+// That's why we'll install web3@1.0.0-beta.37 for this project
+// since we know that it works with our project source code
+
+$ npm install web3@1.0.0-beta.37
+```
