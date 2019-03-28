@@ -19,7 +19,9 @@ exit
 
 # Fetch the latest block data from Parity using `curl`:
 (This method can also be used for users running Geth)
-`curl -H 'Content-Type: application/json' -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}' localhost:8545`
+```
+curl -H 'Content-Type: application/json' -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}' localhost:8545
+```
 
 Since the resulting number from JSON RPC is a hex value we need to convert it to a regular integer, this is easy to do using the JavaScript `parseInt()` function which, if Node.js is installed, can be run in the same bash instance
 ```
