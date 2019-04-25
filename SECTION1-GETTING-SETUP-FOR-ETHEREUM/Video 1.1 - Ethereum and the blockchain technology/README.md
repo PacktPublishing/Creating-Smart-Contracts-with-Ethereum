@@ -4,7 +4,7 @@ Ethereum and the blockchain technology
 #Installation & Setup Instructions:
 
 # Connect to your JSON RPC instance, e.g.:
-`ssh -i "ethbox.pem" ubuntu@34.234.234.23`
+`ssh -i "ethbox.pem" user@domain.ext`
 
 # Check if JSON RPC instance started
 `ps aux | grep parity`
