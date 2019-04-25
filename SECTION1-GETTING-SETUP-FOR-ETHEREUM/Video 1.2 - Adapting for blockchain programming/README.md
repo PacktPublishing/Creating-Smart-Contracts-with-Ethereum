@@ -1,7 +1,7 @@
 # Video 1.2: 
 Adapting for blockchain programming
 
-#Installation & Setup Instructions:
+# Installation & Setup Instructions:
 
 Connect to your JSON RPC instance, e.g.:
 `ssh -i "ethbox.pem" user@domain.ext`
