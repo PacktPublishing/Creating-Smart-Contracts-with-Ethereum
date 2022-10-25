@@ -69,3 +69,7 @@ MetaMask Browser Plugin (https://metamask.io)
 
 * [Introduction to Blockchain and Ethereum](https://www.packtpub.com/application-development/introduction-blockchain-and-ethereum-0?utm_source=github&utm_medium=repository&utm_campaign=9781788835251)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788991391">https://packt.link/free-ebook/9781788991391 </a> </p>
